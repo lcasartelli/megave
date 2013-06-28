@@ -1,3 +1,9 @@
+/*
+ * megave
+ * Copyright(c) 2013 Luca Casartelli <luca@plasticpanda.com>
+ * MIT Licensed
+ */
+
 /* jshint browser: true, laxcomma: true */
 
 console.log('%c@FIXME bbackground.js:678: debug login', 'color: red');
