@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1'>
+  <meta http-equiv="Content-Encoding" content="gzip">
+  <title>MEGAve authentication</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+  <div>
+  <p class="description">Login with your MEGA credentials.<br/>Start to save your contents on the cloud!</p>
+  
+  <div class="pure-form pure-form-aligned">
+    <fieldset>
+      <div class="pure-control-group">
+        <label for="email">Email</label>
+        <input class=".pure-input-2-3" type="email" name="email" id="email" placeholder="harryp@h.uk" required>
+      </div>
+      <div class="pure-control-group">
+        <label for="password">Password</label>
+        <input class=".pure-input-2-3" type="password" id="password" name="password" placeholder="caput draconis" required>
+      </div>
+      <div class="pure-controls">
+        <button  id='send' class="pure-button pure-button-primary red-button" type="submit">Login</button>
+      </div>
+    </fieldset>
+  </div>
+  <p id="error"></p>
+  </div>
+</body>
+</html>

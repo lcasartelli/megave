@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 15px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 21px;
+  font-family: "omnes-pro",sans-serif;
+  color: red;
+  text-align: center;
+}
+
+.description {
+  color: grey;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+.red-button {
+  background-color: red;
+}
+
+#error {
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+  text-align: center;
+  font-size: 15px;
+}
